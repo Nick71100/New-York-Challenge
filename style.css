@@ -1,0 +1,101 @@
+@font-face {
+    font-family: courgette;
+    src: url(./ressources/Courgette-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+    width: 980px;
+    margin: auto;
+    font-family: "Source Sans 3", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+header {
+    margin-top: 10px;
+}
+
+header,h2, h3, blockquote, footer{
+    font-family: courgette;
+     text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #003884;
+    font-size: 40px;
+}
+
+nav ol li{
+    text-align: left;
+    color: #003884;
+    font-size: 20px;
+}
+
+blockquote {
+    background-color: #d7e1ef;
+    font-size: 25px;
+    color: #003884;
+}
+
+blockquote cite {
+    margin-top: 170px;
+    font-size: 18px;
+}
+
+h2 {
+    color: #4f89b9;
+    font-size: 35px;
+}
+
+h3 {
+    color: #003884;
+    font-size: 25px;
+}
+
+.drapeau, .brooklyn {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.statue, .taxi {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+span {
+    color: #003884;
+    font-weight: bold;
+}
+
+main {
+    border-bottom: 2px solid #003884;
+}
+
+footer {
+    color: #003884;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+footer div i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: violet;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+footer p:last-child {
+    color: black;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+}
